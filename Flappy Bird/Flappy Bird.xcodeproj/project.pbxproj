@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA2A6F3C1B90009C00269D58 /* bird.png in Resources */ = {isa = PBXBuildFile; fileRef = AA2A6F371B90009C00269D58 /* bird.png */; };
+		AA2A6F3D1B90009C00269D58 /* land.png in Resources */ = {isa = PBXBuildFile; fileRef = AA2A6F381B90009C00269D58 /* land.png */; };
+		AA2A6F3E1B90009C00269D58 /* PipeDown.png in Resources */ = {isa = PBXBuildFile; fileRef = AA2A6F391B90009C00269D58 /* PipeDown.png */; };
+		AA2A6F3F1B90009C00269D58 /* PipeUp.png in Resources */ = {isa = PBXBuildFile; fileRef = AA2A6F3A1B90009C00269D58 /* PipeUp.png */; };
+		AA2A6F401B90009C00269D58 /* sky.png in Resources */ = {isa = PBXBuildFile; fileRef = AA2A6F3B1B90009C00269D58 /* sky.png */; };
 		AA6E53081B8FFC7B000630C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6E53071B8FFC7B000630C2 /* AppDelegate.swift */; };
 		AA6E530A1B8FFC7B000630C2 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = AA6E53091B8FFC7B000630C2 /* GameScene.sks */; };
 		AA6E530C1B8FFC7B000630C2 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6E530B1B8FFC7B000630C2 /* GameScene.swift */; };
@@ -28,6 +33,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AA2A6F371B90009C00269D58 /* bird.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bird.png; sourceTree = "<group>"; };
+		AA2A6F381B90009C00269D58 /* land.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = land.png; sourceTree = "<group>"; };
+		AA2A6F391B90009C00269D58 /* PipeDown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PipeDown.png; sourceTree = "<group>"; };
+		AA2A6F3A1B90009C00269D58 /* PipeUp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PipeUp.png; sourceTree = "<group>"; };
+		AA2A6F3B1B90009C00269D58 /* sky.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sky.png; sourceTree = "<group>"; };
 		AA6E53021B8FFC7B000630C2 /* Flappy Bird.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Flappy Bird.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA6E53061B8FFC7B000630C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AA6E53071B8FFC7B000630C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -60,6 +70,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AA2A6F361B90001300269D58 /* Imagens */ = {
+			isa = PBXGroup;
+			children = (
+				AA2A6F371B90009C00269D58 /* bird.png */,
+				AA2A6F381B90009C00269D58 /* land.png */,
+				AA2A6F391B90009C00269D58 /* PipeDown.png */,
+				AA2A6F3A1B90009C00269D58 /* PipeUp.png */,
+				AA2A6F3B1B90009C00269D58 /* sky.png */,
+			);
+			name = Imagens;
+			sourceTree = "<group>";
+		};
 		AA6E52F91B8FFC7B000630C2 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +103,7 @@
 		AA6E53041B8FFC7B000630C2 /* Flappy Bird */ = {
 			isa = PBXGroup;
 			children = (
+				AA2A6F361B90001300269D58 /* Imagens */,
 				AA6E53071B8FFC7B000630C2 /* AppDelegate.swift */,
 				AA6E53091B8FFC7B000630C2 /* GameScene.sks */,
 				AA6E530B1B8FFC7B000630C2 /* GameScene.swift */,
@@ -198,8 +221,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA2A6F3F1B90009C00269D58 /* PipeUp.png in Resources */,
 				AA6E53161B8FFC7B000630C2 /* LaunchScreen.xib in Resources */,
+				AA2A6F3C1B90009C00269D58 /* bird.png in Resources */,
+				AA2A6F3D1B90009C00269D58 /* land.png in Resources */,
 				AA6E53131B8FFC7B000630C2 /* Images.xcassets in Resources */,
+				AA2A6F3E1B90009C00269D58 /* PipeDown.png in Resources */,
+				AA2A6F401B90009C00269D58 /* sky.png in Resources */,
 				AA6E530A1B8FFC7B000630C2 /* GameScene.sks in Resources */,
 				AA6E53111B8FFC7B000630C2 /* Main.storyboard in Resources */,
 			);
@@ -421,6 +449,7 @@
 				AA6E53271B8FFC7B000630C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AA6E53281B8FFC7B000630C2 /* Build configuration list for PBXNativeTarget "Flappy BirdTests" */ = {
 			isa = XCConfigurationList;
@@ -429,6 +458,7 @@
 				AA6E532A1B8FFC7B000630C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
